@@ -57,6 +57,7 @@ namespace TicTacToe
                         }
                     }
                     gameCheck.WinnerCheck(gameField, player);
+
                     gameCheck.WinnerCheck(gameField, aiSide);
                 }
                 if (gameCheck.win == false)
